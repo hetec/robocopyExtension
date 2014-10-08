@@ -26,11 +26,13 @@ if($help){
         exit
     }
 
-    if(Test-Path $dest){
+     if(Test-Path $dest){
     Write-Host "Existing directory --> Remove old directory and create new one."
     Remove-Item $dest -Recurse -Force
+    mkdir $dest -Force
     }else{
         Write-Host "No existing directory --> Will be created!"
+        mkdir $dest -Force
 
     }
    

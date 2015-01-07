@@ -1,9 +1,8 @@
 ReadMe
 ------
 
-(in process)
 
-Purpose: The application extends the functuanallity [D[Dionality of Robocopy.exe to obtain the possibility for copying a selected range of files/directories in a root directory, what is impossible with Robocopy.exe.
+Purpose: The application extends the functionality of Robocopy.exe to obtain the possibility for copying a selected range of files/directories in a root directory, what is impossible with Robocopy.exe.
 
 For instance:
 
@@ -16,3 +15,4 @@ of the whole content of root
 This app enables you to specify particular 
 subdirectories like sub1 or sub2 for copying
 
+USE THE HELP OPTION FOR MOR INFORMATION
